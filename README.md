@@ -8,52 +8,52 @@ This is a full-featured banking management system that allows bank employees to 
 
 # ✨ Features
 
-🔐 User Authentication
--Secure login system with role-based access (Admin/Teller)
--Session management
--Different privileges based on user roles
+🔐 User Authentication <br>
+-Secure login system with role-based access (Admin/Teller) <br>
+-Session management <br>
+-Different privileges based on user roles <br>
 
-👥 Customer Management
--Add new customers with complete details
--View and update customer information
--Search and manage customer records
--Comprehensive customer profiles
+👥 Customer Management <br>
+-Add new customers with complete details <br>
+-View and update customer information <br>
+-Search and manage customer records <br>
+-Comprehensive customer profiles <br>
 
-💰 Account Management
--Create different account types (Savings, Current, Fixed Deposit)
--Auto-generated account numbers
--Account status management (Active/Inactive/Suspended)
--View customer account relationships
+💰 Account Management <br>
+-Create different account types (Savings, Current, Fixed Deposit) <br>
+-Auto-generated account numbers <br>
+-Account status management (Active/Inactive/Suspended) <br>
+-View customer account relationships <br>
 
-💸 Transaction Processing
--Deposits: Add funds to accounts
--Withdrawals: Remove funds with balance validation
--Transaction history and receipts
--Real-time balance updates
+💸 Transaction Processing <br>
+-Deposits: Add funds to accounts <br>
+-Withdrawals: Remove funds with balance validation <br>
+-Transaction history and receipts <br>
+-Real-time balance updates <br>
 
-📊 Reporting & Administration
--System dashboard with statistics
--Transaction history viewing
--User management (Admin only)
--Database maintenance tools
+📊 Reporting & Administration <br>
+-System dashboard with statistics <br>
+-Transaction history viewing <br>
+-User management (Admin only) <br>
+-Database maintenance tools <br>
 
-🛠 Technologies Used
--Backend
--Java SE - Core application logic
--MySQL - Database management
--JDBC - Database connectivity
+🛠 Technologies Used <br>
+-Backend <br>
+-Java SE - Core application logic <br>
+-MySQL - Database management <br>
+-JDBC - Database connectivity <br>
 
-Frontend
--Java Swing - Graphical user interface
--AWT - Window toolkit for UI components
--DAO Pattern - Data Access Object for database operations
--Layered Architecture - Proper separation of concerns
+Frontend <br>
+-Java Swing - Graphical user interface <br>
+-AWT - Window toolkit for UI components <br>
+-DAO Pattern - Data Access Object for database operations <br>
+-Layered Architecture - Proper separation of concerns <br>
 
 # 🚀 How to Run
-Prerequisites:-
--Java JDK 8 or higher
--MySQL Server 5.7 or higher
--MySQL Connector/J
+Prerequisites:- <br>
+-Java JDK 8 or higher <br>
+-MySQL Server 5.7 or higher <br>
+-MySQL Connector/J <br>
 
 -> Database Setup
 1. Create Database:
@@ -61,19 +61,21 @@ CREATE DATABASE banking_system;
 USE banking_system;
 
 2. Run SQL Script:
+<br>
 Execute the provided "Database.sql" script
+<br>
 This creates all necessary tables and sample data
 
-3. Configure Database Connection:
-  -> Update DatabaseConnection.java with your MySQL credentials:
-private static final String URL = "jdbc:mysql://localhost:3306/banking_system";
-private static final String USERNAME = "your_username";
+3. Configure Database Connection: <br>
+Update DatabaseConnection.java with your MySQL credentials: <br>
+private static final String URL = "jdbc:mysql://localhost:3306/banking_system"; <br>
+private static final String USERNAME = "your_username"; <br>
 private static final String PASSWORD = "your_password";
-
+<br>
 
 # Compilation and Execution (Using Command Line)
--> Compile all Java files
+-> Compile all Java files <br>
 javac -cp "lib/mysql-connector-java-8.0.33.jar" -d bin src/model/*.java src/dao/*.java src/util/*.java src/gui/*.java
 
--> Run the application
+-> Run the application <br>
 java -cp "bin:lib/*" gui.LoginFrame
