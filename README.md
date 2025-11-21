@@ -1,12 +1,12 @@
-Banking System Application
+# Banking System Application
 A comprehensive GUI-based banking system developed in Java with MySQL integration. This application provides a complete banking management solution with customer management, account operations, and transaction processing.
 
-🏦 About the Project
+# 🏦 About the Project
 This is a full-featured banking management system that allows bank employees to manage customers, accounts, and transactions through an intuitive graphical user interface. The system demonstrates proper software engineering principles including database integration, and user authentication.
 
 
 
-✨ Features
+# ✨ Features
 
 🔐 User Authentication
 -Secure login system with role-based access (Admin/Teller)
@@ -49,7 +49,7 @@ Frontend
 -DAO Pattern - Data Access Object for database operations
 -Layered Architecture - Proper separation of concerns
 
-🚀 How to Run
+# 🚀 How to Run
 Prerequisites:-
 -Java JDK 8 or higher
 -MySQL Server 5.7 or higher
@@ -57,7 +57,6 @@ Prerequisites:-
 
 -> Database Setup
 1. Create Database:
-
 CREATE DATABASE banking_system;
 USE banking_system;
 
@@ -72,9 +71,9 @@ private static final String USERNAME = "your_username";
 private static final String PASSWORD = "your_password";
 
 
--> Compilation and Execution (Using Command Line)
-# Compile all Java files
+# Compilation and Execution (Using Command Line)
+-> Compile all Java files
 javac -cp "lib/mysql-connector-java-8.0.33.jar" -d bin src/model/*.java src/dao/*.java src/util/*.java src/gui/*.java
 
-# Run the application
+-> Run the application
 java -cp "bin:lib/*" gui.LoginFrame
