@@ -73,7 +73,7 @@ private static final String PASSWORD = "your_password";
 
 # Compilation and Execution (Using Command Line)
 -> Compile all Java files <br>
-javac -cp "lib/mysql-connector-java-8.0.33.jar" -d bin src/model/*.java src/dao/*.java src/util/*.java src/gui/*.java
+"javac -cp "lib/mysql-connector-java-8.0.33.jar" -d bin src/model/*.java src/dao/*.java src/util/*.java src/gui/*.java"
 
 -> Run the application <br>
-java -cp "bin:lib/*" gui.LoginFrame
+"java -cp "bin:lib/*" gui.LoginFrame"
