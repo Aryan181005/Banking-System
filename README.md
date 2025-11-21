@@ -56,14 +56,12 @@ Prerequisites:- <br>
 -MySQL Connector/J <br>
 
 -> Database Setup
-1. Create Database:
-CREATE DATABASE banking_system;
+1. Create Database: <br>
+CREATE DATABASE banking_system;<br>
 USE banking_system;
 
-2. Run SQL Script:
-<br>
-Execute the provided "Database.sql" script
-<br>
+2. Run SQL Script: <br>
+Execute the provided "Database.sql" script <br>
 This creates all necessary tables and sample data
 
 3. Configure Database Connection: <br>
